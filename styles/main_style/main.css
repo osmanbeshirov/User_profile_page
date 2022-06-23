@@ -1,0 +1,163 @@
+* {
+  list-style-type: none;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+}
+
+.aside {
+  width: 9.028vw;
+  height: 1000px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 0.694vw 0.972vw 2.778vw;
+}
+.aside li {
+  margin-bottom: 30px;
+}
+.aside li:nth-child(6) .aside__img {
+  background-color: #FAA61A;
+}
+.aside .aside__img {
+  width: 3.472vw;
+  height: 3.472vw;
+  border-radius: 50%;
+  background-color: #D4D8E2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 5px;
+}
+.aside .aside__desc {
+  font-weight: 400;
+  font-size: 0.972vw;
+  line-height: 1.181vw;
+  letter-spacing: 0.05em;
+  color: #616173;
+  text-align: center;
+}
+
+.section {
+  width: 89.7vw;
+  height: 70.972vw;
+  background-color: #F5F5F5;
+}
+.section .section__states {
+  height: 3.819vw;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  padding: 0.903vw 6vw;
+}
+.section .section__states .section__state {
+  display: flex;
+  align-items: center;
+  margin-right: 9.722vw;
+}
+.section .section__states .section__state p {
+  font-size: 1.111vw;
+  line-height: 1.319vw;
+  letter-spacing: 0.05em;
+}
+.section .section__states .section__state .section__count {
+  padding: 0.5vw;
+  border-radius: 1.042vw;
+  border: 1px solid #FAA61A;
+  color: #FAA61A;
+  margin-left: 10px;
+}
+.section .section__states .section__state .section__count--circle {
+  width: 2.083vw;
+  height: 2.083vw;
+  border-radius: 50%;
+  text-align: center;
+}
+.section .section__states .section__state:last-child {
+  margin: 0;
+}
+.section .section__cards {
+  padding: 1.597vw 6vw;
+}
+.section .section__cards .section__cards__head {
+  display: flex;
+  justify-content: space-between;
+}
+.section .section__cards .section__cards__head h1 {
+  font-size: 2.083vw;
+  line-height: 2.569vw;
+  letter-spacing: 0.03em;
+}
+.section .section__cards .section__cards__head .section__cards__amounts {
+  display: flex;
+  text-align: center;
+  border: 1px solid #E6E6E6;
+  background-color: #f9f7f7;
+  border-radius: 3.333vw;
+  border-left: none;
+  width: 25.417vw;
+  height: 3.472vw;
+}
+.section .section__cards .section__cards__head .section__cards__amounts .section__cards__choose {
+  font-size: 0.972vw;
+  color: #616173;
+  width: 4.236vw;
+  height: 3.472vw;
+  border-radius: 3.333vw;
+  background-color: #fff;
+  border: 1px solid #E6E6E6;
+  box-shadow: 0px 2px 4px rgba(97, 97, 115, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section .section__cards .section__cards__head .section__cards__amounts .section__cards__amount {
+  margin-left: 25px;
+  margin: auto;
+}
+.section .section__cards .section__cards__head .section__cards__amounts .section__cards__amount .section__cards__amount__heading {
+  font-size: 0.972vw;
+  line-height: 0.972vw;
+  color: #616173;
+}
+.section .section__cards .section__cards__head .section__cards__amounts .section__cards__amount .section__cards__amount__content {
+  font-size: 0.833vw;
+  color: #616173;
+}
+.section .section__cards .section__cards__content .section__table {
+  width: 77.5vw;
+  background-color: #fff;
+  margin-top: 15px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  border-collapse: collapse;
+}
+.section .section__cards .section__cards__content .section__table .section__table__filter {
+  margin-left: 10px;
+}
+.section .section__cards .section__cards__content .section__table thead {
+  border-bottom: 1px solid #e6e6e6;
+}
+.section .section__cards .section__cards__content .section__table thead th {
+  text-align: left;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 0.833vw;
+  line-height: 0.833vw;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #9696AA;
+}
+.section .section__cards .section__cards__content .section__table tbody td {
+  text-align: left;
+  padding: 15px 30px;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 1.111vw;
+  line-height: 1.111vw;
+  letter-spacing: 0.05em;
+  color: #474C54;
+}
+.section .section__cards .section__cards__content .section__table tbody tr:last-child td {
+  border-bottom: none;
+}/*# sourceMappingURL=main.css.map */

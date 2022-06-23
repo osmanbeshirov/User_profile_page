@@ -1,0 +1,121 @@
+.navbar {
+    width: 100%;
+    height: 6.250vw;
+    padding: 1.250vw 5.5vw 1.319vw 1.389vw;
+    display: flex;
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #E6E6E6;;
+
+
+    .navbar__img {
+        width: 10.139vw;
+        height: 3.681vw;
+    }
+
+    .navbar__contact {
+        width: 4.028vw;
+        display: flex;
+        margin-left: 2.986vw;
+        align-items: center;
+
+        p {
+            color: #474C54;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.04em;
+        }
+    }
+
+    .navbar__search {
+        display: flex;
+        align-items: center;
+        margin-left: 3.194vw;
+
+        .navbar__input {
+            width: 24.653vw;
+            height: 2.431vw;
+            border-radius: 30px;
+            background-color: #F1F1F5;
+            padding: 7px 15px;
+            border: none;
+        }
+    }
+
+    .navbar__procedures {
+        width: 29.653vw;
+        height: 3.472vw;
+        display: flex;
+        margin-left: 2.569vw;
+
+        .navbar__procedures__left {
+            display: flex;
+            border-right: 1px solid #E6E6E6;
+        }
+
+        .navbar__procedure {
+            margin-right: 1.111vw;
+        }
+
+        .navbar__procedures__right {
+            display: flex;
+
+            .navbar__procedure:nth-child(1) {
+                margin-left: 1.111vw;
+            }
+
+            .navbar__procedure:last-child {
+                display: flex;
+            }
+
+
+            .navbar__procedure__count {
+                width: 1.111vw;
+                height: 1.111vw;
+                border-radius: 50%;
+                background-color: #F9C20A;
+                font-size: 12px;
+                text-align: center;
+                margin-left: -15px;
+
+            }
+        }
+
+    }
+
+    .navbar__profile {
+        margin-left: 2.8vw;
+        margin-top: 5px;
+        
+        .profile__username {
+            margin-bottom: 5px;
+
+            p {
+                font-weight: 600;
+                font-size: 1.111vw;
+                line-height: 1.111vw;
+                letter-spacing: 0.03em;
+                color: #231F20;
+            }
+        }
+
+        .profile__position {
+            p {
+                font-weight: 400;
+                font-size: 0.903vw;
+                line-height: 1.111vw;
+                letter-spacing: 0.03em;
+                color: #616173;
+            }
+        }
+
+    }
+
+    .navbar__sign-out{
+        margin-left: 9px;
+    }
+
+
+
+
+}
